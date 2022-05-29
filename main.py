@@ -67,9 +67,7 @@ class Twitch:
         }
 
         response = requests.get(url, headers=headers, params=querystring)
-
         print(response.text)
-
         self.create()
 
     def create(self):
