@@ -82,5 +82,5 @@ v0.0.1 ⋮ 2022-03-28
 ```
 
 <p align="center">
-  README.md inspired by Rdimo
+  README.md inspired from Rdimo
 </p>
