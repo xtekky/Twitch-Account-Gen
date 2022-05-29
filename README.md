@@ -1,5 +1,5 @@
 <h1 align="center">
-  Twitch Account Gen 💉
+  Twitch Account Gen 👻
 </h1>
 
 <p align="center">
