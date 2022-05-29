@@ -42,22 +42,10 @@ Love ❌ code ✅
 
 ## 🚀・Setup Twitch Acc Gen
 
-You'll need [Git](https://git-scm.com) to start off!
-
 ```sh-session
-git@2.17.1 or higher
+> This script is meant for devs, I will not provide any support
+> Download the file and run main.py
 ```
-
-### 1. From your command line, clone and configure discord-injection:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/xtekky/Twitch-Account-Gen.git
-
-```
-
-This script is meant for devs, I will not provide any support
-
 
 ## 🤝・Contributing
 
