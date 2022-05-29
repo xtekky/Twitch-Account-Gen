@@ -52,7 +52,7 @@ git@2.17.1 or higher
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rdimo/Discord-injection.git
+$ git clone https://github.com/xtekky/Twitch-Account-Gen.git
 
 ```
 
