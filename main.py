@@ -4,7 +4,7 @@ session = requests.Session()
 
 
 
-"""header_v1 = {
+header_v1 = {
         "accept": "*/*",
         "accept-encoding": "gzip, deflate",
         "accept-language": "en-us",
@@ -26,7 +26,7 @@ data = {
     "site": "https://www.twitch.tv",
     "userbrowser": "Mozilla/5.0 (Linux; Android 7.1.2; SM-G973N Build/PPR1.190810.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36"
     }
-            
+
 r = session.post('https://client-api.arkoselabs.com/fc/gt2/public_key/E5554D43-23CC-1982-971D-6A2262A2CA24' , data=data, headers=header_v1) #, data=data
 #print(json.dumps(r.json(), indent=4))
 
@@ -40,11 +40,11 @@ headers_v2 = {
         }
 
 session_token = token_v1.split('|')[0]
-print(session_token)
+#print(session_token)
 captcha = session.post(f'https://client-api.arkoselabs.com/fc/get_audio/?session_token={session_token}&analytics_tier=40&r=us-west-2&language=en', headers=headers_v2)
 
 with open(f'./captchas/{random.randint(1,100000)}.wav', 'wb') as ff:
-    ff.write(captcha.content)"""
+    ff.write(captcha.content)
 
 passw = "$}W-3L^_-P*%L)cY"
 username = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6))
