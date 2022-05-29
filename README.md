@@ -85,6 +85,10 @@ This project is licensed under the GNU General Public License v3.0 License - see
 ## 💭・ChangeLog
 
 ```diff
+v0.0.2 ⋮ 2022-03-28
++ Added captcha verification
++ cleaner code
+
 v0.0.1 ⋮ 2022-03-28
 + Added Main Script
 + Cleaned up Code
