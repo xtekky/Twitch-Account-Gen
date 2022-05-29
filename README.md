@@ -64,9 +64,9 @@ Twitch Account Gen got 100% devved by me. I reversed the mobile twitch api and m
 
 This project is licensed under the GPL General Public License v3.0 License - see the [LICENSE.md](./LICENSE) file for details
 ```js
-・Educational purpose only and all your consequences caused by you actions is your responsibility
-・Selling this **Free** gen is forbidden
-・If you make a copy of this/or fork it, it **must** be open-source and have credits linking to this repo
+  ・Educational purpose only and all your consequences caused by you actions is your responsibility
+  ・Selling this Free gen is forbidden
+  ・If you make a copy of this/or fork it, it must be open-source and have credits linking to this repo
 ```
 
 ## 💭・ChangeLog
