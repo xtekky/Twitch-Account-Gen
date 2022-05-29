@@ -26,7 +26,7 @@
 </h4>
 
 <h2 align="center">
-  Discord-Injection was made by
+  Twitch Gen was made by
 
 Love ❌ code ✅
 
