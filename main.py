@@ -45,6 +45,10 @@ captcha = session.post(f'https://client-api.arkoselabs.com/fc/get_audio/?session
 
 with open(f'./captchas/{random.randint(1,100000)}.wav', 'wb') as ff:
     ff.write(captcha.content)
+"""
+There was a glitch where they wouldn't look for captcha completion + the downloaded audio file is corrupted or idk, don't have time
+will fix it in the vacations
+"""
 
 passw = "$}W-3L^_-P*%L)cY"
 username = ''.join(random.choices('abcdefghijklmnopqrstuvwxyz1234567890', k=6))
