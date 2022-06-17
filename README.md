@@ -59,10 +59,6 @@ Love ❌ code ✅
 
 - Add profile picture/banner / email verification
 
-## :seedling:・Inspiration/Credits
-
-Twitch Account Gen got 100% devved by me. I reversed the mobile twitch api and made this script in 2 days.
-
 ## 📄・License
 
 This project is licensed under the GPL General Public License v3.0 License - see the [LICENSE.md](./LICENSE) file for details
