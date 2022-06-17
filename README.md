@@ -40,25 +40,24 @@ Love ❌ code ✅
 
 ## :fire: Features
 
-✔ Attempts to generate twitch accounts using API
+✔ Generates twitch accounts
+✔ very fast (threading)
 
 ---
 
 ## 🚀・Setup Twitch Acc Gen
 
 ```sh-session
-> This script is meant for devs, I will not provide any support
-> Download the file and run main.py
+> downloas zip file>
+> add proxies 
+> add 2captcha key you can get at 2captcha.com?from=14106022
+> run main.py
+!! I will make a youtube tutorial aswell as better instructions
 ```
-
-## 🤝・Contributing
-
-- The bot needs to be fixed, if you wan't to you can contribute to this open-src project
 
 ## 🎉・Upcoming/enhancements
 
-- Make it better faster
-- Fix it (sometimes just not working)
+- Add profile picture/banner / email verification
 
 ## :seedling:・Inspiration/Credits
 
@@ -76,6 +75,10 @@ This project is licensed under the GPL General Public License v3.0 License - see
 ## 💭・ChangeLog
 
 ```diff
+v0.0.3 ⋮ 2022-06-17
++ Added 2captcha
++ 100% working code
+
 v0.0.2 ⋮ 2022-03-28
 + Added captcha verification
 + cleaner code
