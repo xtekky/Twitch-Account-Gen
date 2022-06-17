@@ -1,3 +1,7 @@
+<h4 align="center">
+  Working as 17 june 2022 ! use https://2captcha.com?from=14106022 for discount !!
+</h4>
+
 <h1 align="center">
   Twitch Account Gen 👻
 </h1>
