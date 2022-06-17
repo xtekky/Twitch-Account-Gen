@@ -1,15 +1,6 @@
-from gevent import config
-import requests
-import random
-import string
-import time
-import threading
-import json
-
-from colorama import Fore, init
+import requests, random, time, threading, json; from colorama import Fore, init
 
 init(convert=True)
-
 
 class Generator:
     def __init__(self, config_file, proxy_file, site_key, page_url):
