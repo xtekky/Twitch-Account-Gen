@@ -24,7 +24,7 @@
 </p>
 
 <h4 align="center">
-  <a href="https://discord.gg">🌌・Discord</a>
+  <a href="https://discord.gg/onlp">🌌・Discord</a>
   <a href="https://github.com/xtekky/Twitch-Account-Gen#license">💻・License</a>
   <a href="https://github.com/xtekky/Twitch-Account-Gen#changelog">📜・ChangeLog</a>
 </h4>
