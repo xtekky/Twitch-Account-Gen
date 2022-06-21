@@ -171,7 +171,11 @@ class Generator:
                                                 }
                                             }
                                     }
-                            ]
+                        ],
+                        proxies = {
+                            'http': f'http://{prox}',
+                            'https':f'http://{prox}'
+                        }
                     )
                 
                 with open('raw_tucans.txt','a+') as _:
