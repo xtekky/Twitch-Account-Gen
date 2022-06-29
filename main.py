@@ -15,7 +15,7 @@ class Generator:
         self.site_key         = site_key
         self.page_url         = page_url
 
-        self.proxies          = open(proxy_file, 'r').readlines()
+        self.proxies          = open(proxy_file, 'r').read().splitlines()
         
         self.errors           = 0
         self.retries          = 0
