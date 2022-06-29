@@ -178,10 +178,10 @@ class Generator:
                         }
                     )
                 
-                with open('raw_tucans.txt','a+') as _:
+                with open('./output/raw_tucans.txt','a+') as _:
                     _.write(f"{token}\n")
 
-                with open('tucans.txt','a+') as _:
+                with open('./output/tucans.txt','a+') as _:
                     _.write(f"{username}:{self.password}:{token}\n")
                 
                 print(Fore.GREEN + f"Generated | {Fore.RESET}{token}\n")
