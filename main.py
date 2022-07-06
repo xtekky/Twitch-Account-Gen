@@ -144,7 +144,6 @@ class Generator:
                             "Client-Session-Id": "671362f9f83b6729",
                             "Client-Id": "kimne78kx3ncx6brgo4mv6wki5h1ko",
                             "X-Device-Id": "O1MrFLwPyZ2byJzoLFT0K5XNlORNRQ9F",
-                            "sec-ch-ua-platform": '"Windows"',
                             "Accept": "*/*","Origin": "https://dashboard.twitch.tv",
                             "Sec-Fetch-Site": "same-site",
                             "Sec-Fetch-Mode": "cors",
