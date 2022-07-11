@@ -71,7 +71,7 @@ class Generator:
 
     def gen_account(self, captcha_token):
         try:
-
+            print(f" Generating ... [{captcha_token[:10]}...]")
             random_day   = random.randint(1,30)
             random_month = random.randint(1,12)
             email        = "".join(random.choices('abcdefghijklmnopqrstuvwxyz', k=8)) + "@gmail.com"
@@ -126,6 +126,7 @@ class Generator:
 
             elif "access_token" in r.text:
                 token = r.json()["access_token"]
+                print(f'Generated : {token}")
                 user_id = r.json()["userID"]
 
                 bio_req = requests.post(
