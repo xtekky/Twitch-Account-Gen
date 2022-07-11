@@ -44,7 +44,7 @@ class Generator:
         task_id = get_task.text.split("|")[1]
         print(f' New captcha task [{task_id}]')
         
-        time.sleep(2.8)
+        time.sleep(2.7)
         
         twocap_response = requests.get(
             url = f"https://2captcha.com/res.php",
