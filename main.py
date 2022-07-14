@@ -126,7 +126,7 @@ class Generator:
 
             elif "access_token" in r.text:
                 token = r.json()["access_token"]
-                print(f'Generated : {token}")
+                print(f"Generated : {token}")
                 user_id = r.json()["userID"]
 
                 bio_req = requests.post(
