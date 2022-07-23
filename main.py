@@ -1,5 +1,5 @@
 import requests, random, time, threading, json
-from colorama import Fore, init
+from colorama import Fore, init 
 
 init(convert=True)
 
